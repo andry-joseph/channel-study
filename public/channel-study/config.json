@@ -1,0 +1,1423 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v3.0.0/src/parser/StudyConfigSchema.json",
+  "studyMetadata": {
+    "title": "Graphical Perception Study 2.0",
+    "version": "pilot-1",
+    "authors": [
+      "Andry Joseph"
+    ],
+    "date": "2026-11-20",
+    "description": "Does swapping which attribute goes on the main channel vs. color change which option people choose?",
+    "organizations": [
+      "University of Utah"
+    ]
+  },
+  "uiConfig": {
+    "contactEmail": "andry.joseph@utah.edu",
+    "helpTextPath": "channel-study/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "withProgressBar": true,
+    "autoDownloadStudy": false,
+    "withSidebar": false
+  },
+  "components": {
+    "laptop_m1_dot_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m1_dot_wayA.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "laptop",
+        "matchup": "m1",
+        "chart_type": "dot",
+        "way": "A",
+        "main_channel": "position",
+        "main_channel_attribute": "Battery life",
+        "color_attribute": "Customer rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m1_bar_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m1_bar_wayA.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "laptop",
+        "matchup": "m1",
+        "chart_type": "bar",
+        "way": "A",
+        "main_channel": "length",
+        "main_channel_attribute": "Battery life",
+        "color_attribute": "Customer rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m1_bubble_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m1_bubble_wayA.png",
+      "style": {
+        "width": "674px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "laptop",
+        "matchup": "m1",
+        "chart_type": "bubble",
+        "way": "A",
+        "main_channel": "area",
+        "main_channel_attribute": "Battery life",
+        "color_attribute": "Customer rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m2_dot_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m2_dot_wayB.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "laptop",
+        "matchup": "m2",
+        "chart_type": "dot",
+        "way": "B",
+        "main_channel": "position",
+        "main_channel_attribute": "Customer rating",
+        "color_attribute": "Battery life",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m2_bar_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m2_bar_wayB.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "laptop",
+        "matchup": "m2",
+        "chart_type": "bar",
+        "way": "B",
+        "main_channel": "length",
+        "main_channel_attribute": "Customer rating",
+        "color_attribute": "Battery life",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m2_bubble_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m2_bubble_wayB.png",
+      "style": {
+        "width": "674px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "laptop",
+        "matchup": "m2",
+        "chart_type": "bubble",
+        "way": "B",
+        "main_channel": "area",
+        "main_channel_attribute": "Customer rating",
+        "color_attribute": "Battery life",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m1_dot_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m1_dot_wayA.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "apartment",
+        "matchup": "m1",
+        "chart_type": "dot",
+        "way": "A",
+        "main_channel": "position",
+        "main_channel_attribute": "Size (square feet)",
+        "color_attribute": "Renter rating",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m1_bar_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m1_bar_wayA.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "apartment",
+        "matchup": "m1",
+        "chart_type": "bar",
+        "way": "A",
+        "main_channel": "length",
+        "main_channel_attribute": "Size (square feet)",
+        "color_attribute": "Renter rating",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m1_bubble_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m1_bubble_wayA.png",
+      "style": {
+        "width": "720px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "apartment",
+        "matchup": "m1",
+        "chart_type": "bubble",
+        "way": "A",
+        "main_channel": "area",
+        "main_channel_attribute": "Size (square feet)",
+        "color_attribute": "Renter rating",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m2_dot_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m2_dot_wayB.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "apartment",
+        "matchup": "m2",
+        "chart_type": "dot",
+        "way": "B",
+        "main_channel": "position",
+        "main_channel_attribute": "Renter rating",
+        "color_attribute": "Size (square feet)",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m2_bar_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m2_bar_wayB.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "apartment",
+        "matchup": "m2",
+        "chart_type": "bar",
+        "way": "B",
+        "main_channel": "length",
+        "main_channel_attribute": "Renter rating",
+        "color_attribute": "Size (square feet)",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m2_bubble_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m2_bubble_wayB.png",
+      "style": {
+        "width": "720px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "apartment",
+        "matchup": "m2",
+        "chart_type": "bubble",
+        "way": "B",
+        "main_channel": "area",
+        "main_channel_attribute": "Renter rating",
+        "color_attribute": "Size (square feet)",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m1_dot_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/car_m1_dot_wayA.png",
+      "style": {
+        "width": "362px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "car",
+        "matchup": "m1",
+        "chart_type": "dot",
+        "way": "A",
+        "main_channel": "position",
+        "main_channel_attribute": "Fuel efficiency (mpg)",
+        "color_attribute": "Safety rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m1_bar_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/car_m1_bar_wayA.png",
+      "style": {
+        "width": "362px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "car",
+        "matchup": "m1",
+        "chart_type": "bar",
+        "way": "A",
+        "main_channel": "length",
+        "main_channel_attribute": "Fuel efficiency (mpg)",
+        "color_attribute": "Safety rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m1_bubble_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/car_m1_bubble_wayA.png",
+      "style": {
+        "width": "754px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "car",
+        "matchup": "m1",
+        "chart_type": "bubble",
+        "way": "A",
+        "main_channel": "area",
+        "main_channel_attribute": "Fuel efficiency (mpg)",
+        "color_attribute": "Safety rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m2_dot_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/car_m2_dot_wayB.png",
+      "style": {
+        "width": "447px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "car",
+        "matchup": "m2",
+        "chart_type": "dot",
+        "way": "B",
+        "main_channel": "position",
+        "main_channel_attribute": "Safety rating",
+        "color_attribute": "Fuel efficiency (mpg)",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m2_bar_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/car_m2_bar_wayB.png",
+      "style": {
+        "width": "447px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "car",
+        "matchup": "m2",
+        "chart_type": "bar",
+        "way": "B",
+        "main_channel": "length",
+        "main_channel_attribute": "Safety rating",
+        "color_attribute": "Fuel efficiency (mpg)",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m2_bubble_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/car_m2_bubble_wayB.png",
+      "style": {
+        "width": "754px"
+      },
+      "meta": {
+        "survey": "survey1",
+        "scenario": "car",
+        "matchup": "m2",
+        "chart_type": "bubble",
+        "way": "B",
+        "main_channel": "area",
+        "main_channel_attribute": "Safety rating",
+        "color_attribute": "Fuel efficiency (mpg)",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m1_dot_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m1_dot_wayB.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "laptop",
+        "matchup": "m1",
+        "chart_type": "dot",
+        "way": "B",
+        "main_channel": "position",
+        "main_channel_attribute": "Customer rating",
+        "color_attribute": "Battery life",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m1_bar_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m1_bar_wayB.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "laptop",
+        "matchup": "m1",
+        "chart_type": "bar",
+        "way": "B",
+        "main_channel": "length",
+        "main_channel_attribute": "Customer rating",
+        "color_attribute": "Battery life",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m1_bubble_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m1_bubble_wayB.png",
+      "style": {
+        "width": "674px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "laptop",
+        "matchup": "m1",
+        "chart_type": "bubble",
+        "way": "B",
+        "main_channel": "area",
+        "main_channel_attribute": "Customer rating",
+        "color_attribute": "Battery life",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m2_dot_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m2_dot_wayA.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "laptop",
+        "matchup": "m2",
+        "chart_type": "dot",
+        "way": "A",
+        "main_channel": "position",
+        "main_channel_attribute": "Battery life",
+        "color_attribute": "Customer rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m2_bar_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m2_bar_wayA.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "laptop",
+        "matchup": "m2",
+        "chart_type": "bar",
+        "way": "A",
+        "main_channel": "length",
+        "main_channel_attribute": "Battery life",
+        "color_attribute": "Customer rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "laptop_m2_bubble_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/laptop_m2_bubble_wayA.png",
+      "style": {
+        "width": "674px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "laptop",
+        "matchup": "m2",
+        "chart_type": "bubble",
+        "way": "A",
+        "main_channel": "area",
+        "main_channel_attribute": "Battery life",
+        "color_attribute": "Customer rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m1_dot_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m1_dot_wayB.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "apartment",
+        "matchup": "m1",
+        "chart_type": "dot",
+        "way": "B",
+        "main_channel": "position",
+        "main_channel_attribute": "Renter rating",
+        "color_attribute": "Size (square feet)",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m1_bar_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m1_bar_wayB.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "apartment",
+        "matchup": "m1",
+        "chart_type": "bar",
+        "way": "B",
+        "main_channel": "length",
+        "main_channel_attribute": "Renter rating",
+        "color_attribute": "Size (square feet)",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m1_bubble_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m1_bubble_wayB.png",
+      "style": {
+        "width": "720px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "apartment",
+        "matchup": "m1",
+        "chart_type": "bubble",
+        "way": "B",
+        "main_channel": "area",
+        "main_channel_attribute": "Renter rating",
+        "color_attribute": "Size (square feet)",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m2_dot_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m2_dot_wayA.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "apartment",
+        "matchup": "m2",
+        "chart_type": "dot",
+        "way": "A",
+        "main_channel": "position",
+        "main_channel_attribute": "Size (square feet)",
+        "color_attribute": "Renter rating",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m2_bar_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m2_bar_wayA.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "apartment",
+        "matchup": "m2",
+        "chart_type": "bar",
+        "way": "A",
+        "main_channel": "length",
+        "main_channel_attribute": "Size (square feet)",
+        "color_attribute": "Renter rating",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "apartment_m2_bubble_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/apartment_m2_bubble_wayA.png",
+      "style": {
+        "width": "720px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "apartment",
+        "matchup": "m2",
+        "chart_type": "bubble",
+        "way": "A",
+        "main_channel": "area",
+        "main_channel_attribute": "Size (square feet)",
+        "color_attribute": "Renter rating",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m1_dot_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/car_m1_dot_wayB.png",
+      "style": {
+        "width": "447px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "car",
+        "matchup": "m1",
+        "chart_type": "dot",
+        "way": "B",
+        "main_channel": "position",
+        "main_channel_attribute": "Safety rating",
+        "color_attribute": "Fuel efficiency (mpg)",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m1_bar_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/car_m1_bar_wayB.png",
+      "style": {
+        "width": "447px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "car",
+        "matchup": "m1",
+        "chart_type": "bar",
+        "way": "B",
+        "main_channel": "length",
+        "main_channel_attribute": "Safety rating",
+        "color_attribute": "Fuel efficiency (mpg)",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m1_bubble_wayB": {
+      "type": "image",
+      "path": "channel-study/assets/car_m1_bubble_wayB.png",
+      "style": {
+        "width": "754px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "car",
+        "matchup": "m1",
+        "chart_type": "bubble",
+        "way": "B",
+        "main_channel": "area",
+        "main_channel_attribute": "Safety rating",
+        "color_attribute": "Fuel efficiency (mpg)",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m2_dot_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/car_m2_dot_wayA.png",
+      "style": {
+        "width": "362px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "car",
+        "matchup": "m2",
+        "chart_type": "dot",
+        "way": "A",
+        "main_channel": "position",
+        "main_channel_attribute": "Fuel efficiency (mpg)",
+        "color_attribute": "Safety rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m2_bar_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/car_m2_bar_wayA.png",
+      "style": {
+        "width": "362px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "car",
+        "matchup": "m2",
+        "chart_type": "bar",
+        "way": "A",
+        "main_channel": "length",
+        "main_channel_attribute": "Fuel efficiency (mpg)",
+        "color_attribute": "Safety rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "car_m2_bubble_wayA": {
+      "type": "image",
+      "path": "channel-study/assets/car_m2_bubble_wayA.png",
+      "style": {
+        "width": "754px"
+      },
+      "meta": {
+        "survey": "survey2",
+        "scenario": "car",
+        "matchup": "m2",
+        "chart_type": "bubble",
+        "way": "A",
+        "main_channel": "area",
+        "main_channel_attribute": "Fuel efficiency (mpg)",
+        "color_attribute": "Safety rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "no",
+        "correct_answer": ""
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "check_laptop_dot": {
+      "type": "image",
+      "path": "channel-study/assets/check_laptop_dot.png",
+      "style": {
+        "width": "406px"
+      },
+      "meta": {
+        "survey": "both",
+        "scenario": "laptop",
+        "matchup": "check",
+        "chart_type": "dot",
+        "way": "A",
+        "main_channel": "position",
+        "main_channel_attribute": "Battery life",
+        "color_attribute": "Customer rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "yes",
+        "correct_answer": "Option A"
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "check_apartment_bar": {
+      "type": "image",
+      "path": "channel-study/assets/check_apartment_bar.png",
+      "style": {
+        "width": "465px"
+      },
+      "meta": {
+        "survey": "both",
+        "scenario": "apartment",
+        "matchup": "check",
+        "chart_type": "bar",
+        "way": "A",
+        "main_channel": "length",
+        "main_channel_attribute": "Size (square feet)",
+        "color_attribute": "Renter rating",
+        "option_ahead_on_main_channel": "Option B",
+        "option_ahead_on_color": "Option B",
+        "is_attention_check": "yes",
+        "correct_answer": "Option B"
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "check_car_bubble": {
+      "type": "image",
+      "path": "channel-study/assets/check_car_bubble.png",
+      "style": {
+        "width": "754px"
+      },
+      "meta": {
+        "survey": "both",
+        "scenario": "car",
+        "matchup": "check",
+        "chart_type": "bubble",
+        "way": "A",
+        "main_channel": "area",
+        "main_channel_attribute": "Fuel efficiency (mpg)",
+        "color_attribute": "Safety rating",
+        "option_ahead_on_main_channel": "Option A",
+        "option_ahead_on_color": "Option A",
+        "is_attention_check": "yes",
+        "correct_answer": "Option A"
+      },
+      "response": [
+        {
+          "id": "choice",
+          "prompt": "Which one would you choose?",
+          "location": "belowStimulus",
+          "type": "buttons",
+          "options": [
+            "Option A",
+            "Option B"
+          ]
+        }
+      ]
+    },
+    "introduction": {
+      "type": "markdown",
+      "path": "channel-study/assets/introduction.md",
+      "response": []
+    },
+    "consent": {
+      "type": "markdown",
+      "path": "channel-study/assets/consent.md",
+      "response": [
+        {
+          "id": "consent",
+          "prompt": "Do you agree to take part?",
+          "type": "radio",
+          "options": [
+            "I agree to take part"
+          ],
+          "required": true
+        }
+      ]
+    },
+    "post-survey": {
+      "type": "questionnaire",
+      "response": [
+        {
+          "id": "color-vision",
+          "prompt": "Do you have any color blindness? (optional)",
+          "type": "radio",
+          "options": [
+            "No",
+            "Yes",
+            "Not sure"
+          ],
+          "required": false
+        },
+        {
+          "id": "strategy",
+          "prompt": "How did you mostly decide? (optional)",
+          "type": "shortText",
+          "required": false
+        }
+      ]
+    }
+  },
+  "sequence": {
+    "order": "fixed",
+    "components": [
+      "introduction",
+      "consent",
+      {
+        "id": "assign-survey",
+        "order": "latinSquare",
+        "numSamples": 1,
+        "components": [
+          {
+            "id": "survey1",
+            "order": "random",
+            "components": [
+              "laptop_m1_dot_wayA",
+              "laptop_m1_bar_wayA",
+              "laptop_m1_bubble_wayA",
+              "laptop_m2_dot_wayB",
+              "laptop_m2_bar_wayB",
+              "laptop_m2_bubble_wayB",
+              "apartment_m1_dot_wayA",
+              "apartment_m1_bar_wayA",
+              "apartment_m1_bubble_wayA",
+              "apartment_m2_dot_wayB",
+              "apartment_m2_bar_wayB",
+              "apartment_m2_bubble_wayB",
+              "car_m1_dot_wayA",
+              "car_m1_bar_wayA",
+              "car_m1_bubble_wayA",
+              "car_m2_dot_wayB",
+              "car_m2_bar_wayB",
+              "car_m2_bubble_wayB",
+              "check_laptop_dot",
+              "check_apartment_bar",
+              "check_car_bubble"
+            ]
+          },
+          {
+            "id": "survey2",
+            "order": "random",
+            "components": [
+              "laptop_m1_dot_wayB",
+              "laptop_m1_bar_wayB",
+              "laptop_m1_bubble_wayB",
+              "laptop_m2_dot_wayA",
+              "laptop_m2_bar_wayA",
+              "laptop_m2_bubble_wayA",
+              "apartment_m1_dot_wayB",
+              "apartment_m1_bar_wayB",
+              "apartment_m1_bubble_wayB",
+              "apartment_m2_dot_wayA",
+              "apartment_m2_bar_wayA",
+              "apartment_m2_bubble_wayA",
+              "car_m1_dot_wayB",
+              "car_m1_bar_wayB",
+              "car_m1_bubble_wayB",
+              "car_m2_dot_wayA",
+              "car_m2_bar_wayA",
+              "car_m2_bubble_wayA",
+              "check_laptop_dot",
+              "check_apartment_bar",
+              "check_car_bubble"
+            ]
+          }
+        ]
+      },
+      "post-survey"
+    ]
+  }
+}
